@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin  xmlns:e="http://ns.egret.com/eui" class="skins.box.BoxSkin">
+	<e:Image scale9Grid="50,50,300,300" source="all_bg_png" width="300" height="300" />
+	<e:Group horizontalCenter="0" bottom="40">
+		<e:Button skinName="Button.BtnSkin" id="mode1" />
+		<e:Button skinName="Button.BtnSkin" id="mode2" />
+		<e:layout>
+			<e:VerticalLayout gap="50" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

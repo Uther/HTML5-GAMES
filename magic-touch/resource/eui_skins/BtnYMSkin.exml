@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Button.BtnSkin" states="up,down,disabled,upAndSelected,downAndSelected" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="button_png" includeIn="up,upAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="button_png" includeIn="down,downAndSelected,disabled" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="title" text="普通模式" bold="true" fontFamily="黑体" horizontalCenter="0" verticalCenter="-1.5"/>
+</e:Skin>
